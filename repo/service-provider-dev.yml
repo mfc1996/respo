@@ -19,8 +19,5 @@ eureka:
   instance:
       lease-renewal-interval-in-seconds: 1
       lease-expiration-duration-in-seconds: 2
-      
-mybatis.type-aliases-package=com.jk.mfc.model
-
-mybatis.config-locations=classpath:mybatis/confg.xml
-mybatis.mapper-locations=classpath:mybatis/mapper/*.xml
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
