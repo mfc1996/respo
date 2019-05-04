@@ -26,6 +26,8 @@ spring:
   data:
     solr:
       host: http://localhost:8090/solr
+  mongodb:
+      uri: mongodb://localhost:27017/1809b3
     
 feign:
     hystrix:
