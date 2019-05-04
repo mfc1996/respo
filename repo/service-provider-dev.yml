@@ -21,3 +21,6 @@ eureka:
       lease-expiration-duration-in-seconds: 2
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+feign:
+  httpclient:
+    enabled: true
